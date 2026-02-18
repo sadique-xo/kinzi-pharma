@@ -78,8 +78,8 @@ export function Footer() {
                         © {new Date().getFullYear()} Kinzi Pharma. All Rights Reserved.
                     </p>
                     <div className="flex gap-6 text-sm text-slate-500">
-                        <Link href="#" className="hover:text-slate-800">Privacy Policy</Link>
-                        <Link href="#" className="hover:text-slate-800">Terms of Service</Link>
+                        <Link href="/privacy-policy" className="hover:text-slate-800">Privacy Policy</Link>
+                        <Link href="/terms-of-service" className="hover:text-slate-800">Terms of Service</Link>
                     </div>
                 </div>
             </div>
