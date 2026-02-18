@@ -1,6 +1,12 @@
 
+import { Metadata } from "next";
 import BlurIn from "@/components/ui/blur-in";
 import Marquee from "@/components/ui/marquee";
+
+export const metadata: Metadata = {
+    title: "Manufacturers | Kinzi Pharma",
+    description: "Browse our list of trusted pharmaceutical manufacturing partners including major Indian and global pharma companies.",
+};
 
 export default function ManufacturersPage() {
     return (

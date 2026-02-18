@@ -1,7 +1,13 @@
 
 import React from 'react';
+import { Metadata } from 'next';
 import Link from 'next/link';
 import { ArrowLeft, FileText, Gavel, AlertTriangle, Globe, Lock } from 'lucide-react';
+
+export const metadata: Metadata = {
+    title: "Terms of Service | Kinzi Pharma",
+    description: "Read Kinzi Pharma's Terms of Service. By using our website, you agree to these terms and conditions.",
+};
 
 export default function TermsOfService() {
     return (

@@ -10,6 +10,7 @@ const raleway = Raleway({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://kinzipharma.com"),
   title: "Kinzi Pharma | Global Pharmaceutical Exporter",
   description: "Kinzi Pharma is a leading pharmaceutical exporter based in Mumbai, trusted across 30+ countries. Delivering excellence in healthcare.",
   icons: {

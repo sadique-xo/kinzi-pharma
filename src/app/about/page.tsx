@@ -1,7 +1,13 @@
 
+import { Metadata } from "next";
 import { CheckCircle2, Globe as GlobeIcon, Award, Users } from "lucide-react";
 import BlurIn from "@/components/ui/blur-in";
 import { BentoGrid, BentoCard } from "@/components/ui/bento-grid";
+
+export const metadata: Metadata = {
+    title: "About Us | Kinzi Pharma",
+    description: "Learn about Kinzi Pharma, a licensed pharmaceutical wholesaler and exporter based in Mumbai, India. Dedicated to global healthcare since 2020.",
+};
 
 export default function AboutPage() {
     return (

@@ -1,6 +1,12 @@
 
+import { Metadata } from "next";
 import { Check, ShieldCheck, Pill } from "lucide-react";
 import BlurIn from "@/components/ui/blur-in";
+
+export const metadata: Metadata = {
+    title: "Products | Kinzi Pharma",
+    description: "Explore our wide range of pharmaceutical products including medicines, vaccines, and veterinary supplies available for global export.",
+};
 
 export default function ProductsPage() {
     return (
