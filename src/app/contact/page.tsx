@@ -32,11 +32,14 @@ export default function ContactPage() {
                                     </div>
                                     <div className="flex items-center gap-4">
                                         <Phone className="shrink-0 text-kinzi-teal w-6 h-6" />
-                                        <p className="text-lg">+91-7738246202 <br /> +91-9446761633</p>
+                                        <p className="text-lg">+91-7738246202</p>
                                     </div>
                                     <div className="flex items-center gap-4">
                                         <Mail className="shrink-0 text-kinzi-teal w-6 h-6" />
-                                        <p className="text-lg">info@kinzipharma.com</p>
+                                        <div className="flex flex-col">
+                                            <p className="text-lg">info@kinzipharma.com</p>
+                                            <p className="text-lg">contact.kinzipharma@gmail.com</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>

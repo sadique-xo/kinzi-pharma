@@ -63,11 +63,16 @@ export function Footer() {
                             </li>
                             <li className="flex items-center gap-3">
                                 <Phone className="text-kinzi-teal shrink-0" size={18} />
-                                <span>+91-7738246202 / +91-9446761633</span>
+                                <span>+91-7738246202</span>
                             </li>
-                            <li className="flex items-center gap-3">
-                                <Mail className="text-kinzi-teal shrink-0" size={18} />
-                                <a href="mailto:info@kinzipharma.com" className="hover:text-kinzi-teal transition-colors">info@kinzipharma.com</a>
+                            <li className="flex flex-col gap-2">
+                                <div className="flex items-center gap-3">
+                                    <Mail className="text-kinzi-teal shrink-0" size={18} />
+                                    <a href="mailto:info@kinzipharma.com" className="hover:text-kinzi-teal transition-colors">info@kinzipharma.com</a>
+                                </div>
+                                <div className="flex items-center gap-3 ml-[31px]">
+                                    <a href="mailto:contact.kinzipharma@gmail.com" className="hover:text-kinzi-teal transition-colors">contact.kinzipharma@gmail.com</a>
+                                </div>
                             </li>
                         </ul>
                     </div>

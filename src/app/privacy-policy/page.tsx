@@ -84,9 +84,10 @@ export default function PrivacyPolicy() {
                             <p>
                                 If you have any questions or concerns regarding this Privacy Policy, please contact us at:
                             </p>
-                            <div className="mt-4 p-4 bg-slate-50 rounded-lg border border-gray-100 dark:border-gray-800">
+                            <div className="mt-4 p-4 bg-slate-50 rounded-lg border border-gray-100 dark:border-gray-800 flex flex-col gap-2">
                                 <p className="font-medium text-kinzi-blue">Kinzi Pharma Support</p>
                                 <a href="mailto:info@kinzipharma.com" className="text-kinzi-teal hover:underline">info@kinzipharma.com</a>
+                                <a href="mailto:contact.kinzipharma@gmail.com" className="text-kinzi-teal hover:underline">contact.kinzipharma@gmail.com</a>
                             </div>
                         </section>
 
